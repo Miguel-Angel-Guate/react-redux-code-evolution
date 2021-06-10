@@ -1,0 +1,2 @@
+export const COUNTER_SUM = 'COUNTER_SUM'
+export const COUNTER_REST = 'COUNTER_REST'

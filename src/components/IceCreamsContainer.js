@@ -3,7 +3,6 @@ import { buyIceCream } from "../redux";
 
 const IceCreamsContainers = () => {
     const numOfIceCreams = useSelector(state => state.iceCream.numOfIceCreams)
-    console.log(numOfIceCreams)
     const dispatch = useDispatch()
     return <>
     <h2>num of IceCream - {numOfIceCreams}</h2>

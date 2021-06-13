@@ -4,7 +4,6 @@ import { counterRestAction } from "../redux/counter/counterActions";
 
 const CounterContainer = () => {
     const count = useSelector(state => state.countRedu.count)
-    console.log('new state counter', count);
     const dispatch = useDispatch()
     return <>
     <h2>number   {count}</h2>
